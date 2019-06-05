@@ -1,6 +1,6 @@
 # OMS
 Office-Management-System advanced
-Office-Management-System is a [PHPMySQL project] with both admin and multiple user profiles with different-2 permissions.
+Office-Management-System is a [PHPMySQL project] with admin and multiple user profiles having different-2 permissions.
 
 Installation
 
@@ -24,11 +24,11 @@ ii> git clone https://github.com/ipsmmehta/Office-Management-System.git
 
 7> Update config.php file under apps directory as per your database login details (dbhost_name, database, username, password )  and also update the IP Address of your hosting server ($Assress_IP)
 
-7> After creating database name click on import. and then import the oms_db.sql file 
+8> After creating database name click on import. and then import the oms_db.sql file 
 
-8> The admin login details are ipsm@admin.com as username and admin as password
+9> The admin login details are ipsm@admin.com as username and admin as password
 
-9> New user can register by using registration tab 
+10> New user can register by using registration tab 
 
 # Screenshots
 ![image](https://user-images.githubusercontent.com/51403667/58954831-e313c780-87b7-11e9-8113-b06429095b6e.png)
