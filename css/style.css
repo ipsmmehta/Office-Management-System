@@ -1,0 +1,232 @@
+  /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+  .row.content {height: 1500px}
+    
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #f1f1f1;
+    height: auto;
+  }
+  
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  
+}
+#fixed{
+  position: fixed;
+}   
+  #sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  //background: #fafafa;
+  //background:red;
+  color: #616161;
+  transition: all 0.3s;
+  border-right:1px solid #e3e3e3;
+ 
+   
+  // box-shadow: 0px 0px 5px #e3e3e3, 0px 0px 5px #e3e3e3, 0px 0px 5px #e3e3e3;
+ // box-shadow: 1px 2px 4px rgba(0, 0, 0, .5), -0.1em -0.2em gray ;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, ,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#sidebar.active {
+  margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+  padding: 20px;
+  background: #fafafa;
+}
+
+#sidebar ul.components {
+  padding: 20px 0;
+  border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.1em;
+  display: block;
+  border-bottom:1px solid #e3e3e3;
+}
+
+
+#sidebar ul li a:hover {
+  color:#ff4444;
+ // background: #fff;
+ 
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+  //color: #fff;
+  background: #fafafa;
+  // border-bottom:1px solid #e3e3e3;
+}
+a[data-toggle="collapse"] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+ul ul a {
+  font-size: 0.9em !important;
+  padding-left: 30px !important;
+  background: #fafafa;
+}
+
+ul.CTAs {
+  padding: 20px;
+}
+
+ul.CTAs a {
+  text-align: center;
+  font-size: 0.9em !important;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+a.download {
+  background: #fff;
+  color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+  background: #fafafa !important;
+  color: #fff !important;
+}
+
+/* 
+Start  Hoverable Side nave Button Style
+*/ 
+#mySidenav a {
+  position: absolute;
+  right: 0px;
+// margin-left:91%;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius:  7px 0 0 5px;
+}
+
+#mySidenav a:hover {
+  // right: -30px;
+  right: 30px;
+}
+
+#about {
+  top: 9%;
+  background-color: #ff4444;
+
+}
+
+#blog {
+  top: 18%;
+  background-color: #2196F3;
+}
+
+/* 
+End Hoverable Side nave Button Style
+*/ 
+
+/* ---------------------------------------------------
+  CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 99vh; // Manage the height of the page
+  transition: all 0.3s;
+}
+
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  
+  @media screen and (max-width: 767px) {
+    #TEST_side {
+      height: 0%;
+      padding: 0px;
+      scroll-behavior: unset;
+      
+    }
+    .row.content {height: 0%;} 
+  }
+
+  @media (max-width: 768px) {
+  #sidebar {
+      margin-left: -250px;
+  }
+  #sidebar.active {
+      margin-left: 0;
+  }
+  #sidebarCollapse span {
+      display: none;
+  }
+}
+
+
+a:hover {
+  color:#ff4444 !important;
+}
+
+#red_txt {
+  text-align:left;
+  padding-left: 30px !important;
+  color:#3978B8 !important;
+  background-color: #fafafa ;
+  border: 0px;
+  border-bottom:1px solid #e3e3e3;
+  padding:7px;
+  WIDTH:100%;
+}
+#red_txt:hover {
+  color:#ff4444 !important;
+  margin-left: 3%;
+ 
+}
+
+#red_txt2 {
+   
+  color:#3978B8 !important;
+  background-color:transparent;
+  border: 0px;
+ // border-bottom:1px solid #e3e3e3;
+  padding:7px;
+  WIDTH:auto;
+}
+#red_txt2:hover {
+  color:#ff4444 !important;
+  margin-left: 3%;
+}
+
+#require{
+  color:red;
+  font-weight: bold;
+}
