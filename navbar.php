@@ -42,8 +42,8 @@ box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); "  >
             
                
           
-          <li><a href="http://172.16.1.63/OMS_2/Login/"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
-          <li><a href="http://172.16.1.63/OMS_2/Register/"><span class="glyphicon glyphicon-log-in"></span> Register </a></li>
+          <li><a href="<?php echo $Assress_IP; ?>/Login/"><span class="glyphicon glyphicon-log-in"></span> Log In</a></li>
+          <li><a href="<?php echo $Assress_IP; ?>/Register/"><span class="glyphicon glyphicon-log-in"></span> Register </a></li>
 
         </ul>
       </div>
