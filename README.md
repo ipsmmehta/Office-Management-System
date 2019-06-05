@@ -22,6 +22,8 @@ ii> git clone https://github.com/ipsmmehta/Office-Management-System.git
 
 6> Create a new database as oms_db
 
+7> Update config.php file under apps directory as per your database login details (dbhost_name, database, username, password )  and also update the IP Address of your hosting server ($Assress_IP)
+
 7> After creating database name click on import. and then import the oms_db.sql file 
 
 8> The admin login details are ipsm@admin.com as username and admin as password
